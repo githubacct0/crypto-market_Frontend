@@ -9,11 +9,13 @@ import MiniNav from '../main/account/MiniNav'
 
 import logo from '../../assets/images/fidis_icons/fidis_logo_text_gold_transparent.png'
 import mini_logo from '../../assets/images/fidis_icons/fidis_logo_gold_transparent.png'
-import FI25_icon from '../../assets/images/tokens_icons/fi25.png'
-import GOLDFI_icon from '../../assets/images/tokens_icons/fi10.png'
-import METAFI_icon from '../../assets/images/tokens_icons/metafi.png'
+import FI25_icon from '../../assets/images/token_icons/fi25coin.png'
+import FIDIS_icon from '../../assets/images/token_icons/fidiscoin.png'
+import GOLDFI_icon from '../../assets/images/token_icons/fi10.png'
+import METAFI_icon from '../../assets/images/token_icons/metafi.png'
 import wallet_icon from '../../assets/images/general_icons/wallet.png'
 import logout_icon from '../../assets/images/general_icons/logout.png'
+
 
 const styles = {
   btnNav: 'py-[0.8rem] hover:text-orange-FIDIS',
@@ -28,11 +30,11 @@ const NavBar = ({ profilePicture, setProfilePicture }: any) => {
   }
   const data = [
     { name: 'FI25', icon: FI25_icon },
-    { name: 'GoldFI', icon: GOLDFI_icon },
-    { name: 'MetaFI', icon: METAFI_icon },
-    { name: 'NFTFI', icon: FI25_icon },
-    { name: 'GameFI', icon: METAFI_icon },
-    { name: 'DeFiFI', icon: GOLDFI_icon },
+    { name: 'GoldFI', icon: FIDIS_icon },
+    { name: 'MetaFI', icon: FIDIS_icon },
+    { name: 'NFTFI', icon: FIDIS_icon },
+    { name: 'GameFI', icon: FIDIS_icon },
+    { name: 'DeFiFI', icon: FIDIS_icon },
   ]
 
   // using useMoralis Hook

@@ -1,9 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 
-import FI25_icon from '../../../assets/images/tokens_icons/fi25.png'
-import GOLDFI_icon from '../../../assets/images/tokens_icons/fi10.png'
-import METAFI_icon from '../../../assets/images/tokens_icons/metafi.png'
+import FI25_icon from '../../../assets/images/token_icons/fi25coin.png'
+import FIDIS_icon from '../../../assets/images/token_icons/fidiscoin.png'
+import GOLDFI_icon from '../../../assets/images/token_icons/fi10.png'
+import METAFI_icon from '../../../assets/images/token_icons/metafi.png'
 
 const styles = {
   outlined_button:
@@ -22,7 +23,7 @@ const MarketCap = () => {
     },
     {
       token_name: 'GoldFI',
-      token_icon: GOLDFI_icon,
+      token_icon: FIDIS_icon,
       balance: 1.38,
       balance_in_dollars: 2760.00,
       change: 26.85,
@@ -30,7 +31,7 @@ const MarketCap = () => {
     },
     {
       token_name: 'MetaFi',
-      token_icon: METAFI_icon,
+      token_icon: FIDIS_icon,
       balance: 0.45,
       balance_in_dollars: 35.10,
       change: 4.86,
@@ -38,7 +39,7 @@ const MarketCap = () => {
     },
     {
       token_name: 'NFTFI',
-      token_icon: FI25_icon,
+      token_icon: FIDIS_icon,
       balance: 0.1,
       balance_in_dollars: 5.50,
       change: 3.27,
@@ -46,7 +47,7 @@ const MarketCap = () => {
     },
     {
       token_name: 'GameFi',
-      token_icon: METAFI_icon,
+      token_icon: FIDIS_icon,
       balance: 3.54,
       balance_in_dollars: 30.62,
       change: 0.28,
@@ -54,7 +55,7 @@ const MarketCap = () => {
     },
     {
       token_name: 'DeFiFi',
-      token_icon: GOLDFI_icon,
+      token_icon: FIDIS_icon,
       balance: 10.89,
       balance_in_dollars: 137.65,
       change: 1.82,
